@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribute Emails</title>
+</head>
+<body>
+    <h1>Distribute Emails by Daily Plan</h1>
+    <form method="POST">
+        <label for="emails">Enter emails (one per line):</label><br>
+        <textarea id="emails" name="emails" rows="15" cols="60"></textarea><br><br> <!-- Увеличили размер поля -->
+        
+        <label for="plan">Enter daily plan (one number per line):</label><br>
+        <textarea id="plan" name="plan" rows="10" cols="30"></textarea><br><br>
 
+        <button type="submit">Generate CSV Files</button>
+    </form>
+</body>
+</html>
